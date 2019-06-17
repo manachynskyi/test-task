@@ -1,0 +1,4 @@
+services:
+  LoanSummaryService:
+    class: Drupal\loan_amortization\LoanSummaryService
+    arguments: ['@config.factory', '@language_manager']
